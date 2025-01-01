@@ -1,0 +1,55 @@
+[title] {
+    color: red;
+}
+
+abbr [title] {
+    color: green;
+}
+
+input[type="text"] {
+    border: 1px solid red;
+}
+
+input[type="submit"] {
+    border: 1px solid green;
+}
+
+[class~="warning"] {
+    color: #fff;
+    background: red;
+}
+
+p[lang |= "en"] {
+    color: #fff;
+    background: green;
+}
+
+a[href^="http://"] {
+    padding-right: 25px;
+    background: url(images/arrow.jpg) no-repeat;
+
+}
+
+a[href$=".pdf"] {
+    padding-left: 20px;
+    background: url(images/pdf.png) 0 50% no-repeat;
+
+}
+
+[class*="warning2"] {
+    color: #fff;
+    background: red;
+}
+
+input[type="text"], input[type="password"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background: yellow;
+}
+
+input[type="submit"] {
+    padding: 2px  10px;
+    border: 1px solid #804040;
+    background: #ff8040;
+}
